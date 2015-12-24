@@ -12,7 +12,7 @@ if(isset($_SESSION['email']))
 	{
 	if(isset($_POST['submit']))
 	{
-		if($_POST['lvl10.1answer'] == "192.162.68.21")
+		if($_POST['lvl101answer'] == "192.162.68.21")
 		{  
             $qqq=mysql_query("UPDATE member SET level=11, dt='".date('Y-m-d H:i:s')."' WHERE email='".$_SESSION['email']."'") or die("COuld not execute query");
 			header('Location: lvl11.php');
@@ -53,8 +53,8 @@ if(isset($_SESSION['email']))
 			</ul>
 			<center><h1>Level 10</h1></center>
 	<form method="POST" action="lvl10.1.php">
-	<center><img src="lvl10.1.png"></center><br><Br><br>
-	<center><input type="text" name="lvl10.1answer"></center>
+	<center><img src="images/lvl10/lvl10.1.png"></center><br><Br><br>
+	<center><input type="text" name="lvl101answer"></center>
 	<Br>
 	<center><input type="submit" value="Submit" name="submit"></center>
 </form>

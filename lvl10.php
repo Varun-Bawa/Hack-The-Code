@@ -48,10 +48,11 @@ if(isset($_SESSION['email']))
 			  <li role="presentation"><a href="logout.php">Logout</a></li>
 			</ul>
 			<center><h1>Level 10 </h1></center>
-            <center><h2>IT'S YOUR SYSYEM'S IDENTITY ON THE WEB BUT SOMETIMES IT IS THE VULNERABILITY OF YOUR SYSTEM . FIND WHAT IS IT ??</h2></center>
-			<center><img src="lvl10.gif"></center><br><br><br>
+            <center><h2 style="color:blue"><small>IT'S YOUR SYSYEM'S IDENTITY ON THE WEB BUT SOMETIMES IT IS THE VULNERABILITY OF YOUR SYSTEM . FIND WHAT IS IT ??</small></h2>
+            </center><br>
+			<center><img src="images/lvl10/lvl10.gif"></center><br><br><br>
 	<form method="POST" action="lvl10.php">
-	<Br><br>
+	<Br>
 	<center><input type="text" name="lvl10answer"></center>
 	<Br>
 	<center><input type="submit" value="Submit" name="submit"></center>
